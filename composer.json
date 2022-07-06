@@ -87,7 +87,7 @@
         "php": ">=7.2",
         "illuminate/broadcasting": "^5.0|^6.0|^7.0|^8.0|^9.0",
         "illuminate/support": "^5.0|^6.0|^7.0|^8.0|^9.0",
-        "shetabit/multipay": "^1.0"
+        "shetabit/multipay": "dev-bug-fix"
     },
     "suggest": {
         "ext-soap": "Needed to support some drivers that required SOAP"
@@ -124,5 +124,11 @@
     },
     "config": {
         "sort-packages": true
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hamedvbv/multipay"
+        }
+    ]
 }
